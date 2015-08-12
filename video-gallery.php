@@ -734,7 +734,7 @@ function huge_it_videogallery_ShowTinyMCE()
 
 
 function all_videogallery_frontend_scripts_and_styles() {
-    wp_register_script('videogallery_jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', __FILE__ ); 
+//   wp_register_script('videogallery_jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', __FILE__ ); 
     wp_enqueue_script('videogallery_jquery');
 //    wp_register_script('colorbox-js', plugins_url('/js/jquery.colorbox.js', __FILE__)); 
 //    wp_enqueue_script('colorbox-js');
